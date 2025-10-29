@@ -28,10 +28,31 @@ console.log("La suma de los números "+num1+" y "+num2+" es: "+suma);
 
 "3 CONDICIONALES"
 "Ejercicio 1"
-let edad_usuario = prompt ("Ingresa tu edad: ")
-let edad_usu = Number(edad_usuario)
+let edad_usuario = prompt ("Ingresa tu edad: ");
+let edad_usu = Number(edad_usuario);
 if (edad_usu >= 18) {
-    console.log("Puedes entrar")
+    console.log("Puedes entrar");
 } else {
-    console.log("No puedes entrar")
+    console.log("No puedes entrar;")
+}
+
+"Ejercicio 2"
+let posNeg = prompt("Ingresa un número: ");
+let numPosNeg = Number(posNeg);
+if (numPosNeg >0) {
+    console.log("El número "+numPosNeg+" Es positivo");
+} else if (numPosNeg <0) {
+    console.log("El número "+numPosNeg+" Es negativo");
+} else {
+    console.log("El número ingresado Es cero");
+}
+
+"4. BUCLE WHILE"
+"Ejercicio 1"
+let While1 = prompt ("Ingrese un número: ");
+let numWhile1 = Number(While1);
+let contador = 1
+while (contador <=numWhile1) {
+    console.log(contador);
+    contador++;
 }
